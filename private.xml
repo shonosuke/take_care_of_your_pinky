@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>Emacs</appname>
+    <equal>org.gnu.Emacs</equal>
+  </appdef>
+  <item>
+    <name>Control to Command+Q (only in emacs)</name>
+    <identifier>remap.control2commandQ</identifier>
+    <only>Emacs</only>
+    <autogen>--KeyOverlaidModifier-- KeyCode::CONTROL_L, KeyCode::Q, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+  </item>
+</root>
